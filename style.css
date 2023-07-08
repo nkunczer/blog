@@ -95,3 +95,28 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.post {
+    margin-bottom: 20px;
+    border-bottom: 4px solid #f7f7f7;
+}
+  
+.post-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+.post-date {
+    font-style: italic;
+}
+  
+.post-categories {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.post-tags {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
