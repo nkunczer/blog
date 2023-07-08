@@ -198,3 +198,10 @@ a:hover {
     padding: 5px;
 }
 
+.site-logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 5px;
+    display: block;
+    opacity: 0.8;
+}
