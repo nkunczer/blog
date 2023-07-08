@@ -205,3 +205,20 @@ a:hover {
     display: block;
     opacity: 0.8;
 }
+
+.post-thumbnail {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 3px;
+  }
+  
+.archive-post-image {
+    max-width: 100%;
+    height: auto;
+}
+  
+/* Schatten Vorschaubild.. nice */
+.post-thumbnail {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
