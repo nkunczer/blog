@@ -222,3 +222,51 @@ a:hover {
     border: 1px solid #ccc;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
+
+
+.primary-menu li {
+    display: inline-block;
+    position: relative;
+    white-space: nowrap; 
+    padding: 0 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+  
+
+.primary-menu .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 9999;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+  
+.primary-menu li:hover > .sub-menu {
+    display: block;
+}
+  
+  
+  
+.primary-menu a {
+    color: #000000; 
+    text-decoration: none; 
+}
+  
+
+.primary-menu .current-menu-item a {
+    color: #000000; 
+    font-weight: bold; 
+    font-style: italic;
+}
+  
+
+.main-navigation {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
